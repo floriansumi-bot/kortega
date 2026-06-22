@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kortega — Sites web, présence en ligne & applications sur mesure | Suisse romande</title>
-<meta name="description" content="Kortega conçoit des sites web, des présences en ligne et des applications sur mesure pour les commerces, les PME, les artisans et les particuliers en Suisse. Travail en direct avec le développeur, conçu en Suisse, sans frais cachés.">
-<meta name="theme-color" content="#0B1220">
-<meta property="og:title" content="Kortega — Votre présence numérique, conçue en Suisse">
-<meta property="og:description" content="Sites web, présence en ligne et applications sur mesure pour entreprises et particuliers en Suisse.">
+<title>Kortega — L'atelier web près de Neuchâtel</title>
+<meta name="description" content="Kortega est un petit atelier près de Neuchâtel. On crée le site internet, la présence en ligne et les applications des commerces et des particuliers — sans jargon, sans facture surprise.">
+<meta name="theme-color" content="#F4EFE6">
+<meta property="og:title" content="Kortega — l'atelier web près de Neuchâtel">
+<meta property="og:description" content="On fabrique votre site comme le boulanger fait son pain : avec les mains. Sites, présence en ligne et applications pour les commerces et les particuliers de Suisse romande.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_CH">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -22,211 +22,114 @@
 <header id="site-header">
   <div class="container header-inner">
     <a href="#top" class="brand" aria-label="Kortega — accueil">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 48 48" width="36" height="36">
-          <defs>
-            <linearGradient id="kg" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0" stop-color="#4F7CFF"/>
-              <stop offset="1" stop-color="#22D3EE"/>
-            </linearGradient>
-          </defs>
-          <rect width="48" height="48" rx="12" fill="url(#kg)"/>
-          <path d="M17 12 V36 M17 24 L31 12 M17 24 L31 36" stroke="#fff" stroke-width="3.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </span>
-      <span class="brand-name">Kortega</span>
+      <span class="brand-mono" aria-hidden="true">KK</span>
+      <span>Kortega<span class="dot">.</span></span>
     </a>
-
     <nav class="nav" aria-label="Navigation principale">
       <a href="#services" data-i18n="nav.services">Services</a>
-      <a href="#pour-qui" data-i18n="nav.pourqui">Pour qui</a>
-      <a href="#realisations" data-i18n="nav.realisations">Réalisations</a>
-      <a href="#processus" data-i18n="nav.processus">Processus</a>
+      <a href="#realisations" data-i18n="nav.real">Réalisations</a>
+      <a href="#atelier" data-i18n="nav.atelier">Notre atelier</a>
       <a href="#tarifs" data-i18n="nav.tarifs">Tarifs</a>
-      <a href="#equipe" data-i18n="nav.equipe">Équipe</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
-
     <div class="lang-switch" role="group" aria-label="Langue / Language / Sprache">
-      <button type="button" data-lang="fr">FR</button>
-      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="fr">FR</button><span class="lang-sep">·</span>
+      <button type="button" data-lang="en">EN</button><span class="lang-sep">·</span>
       <button type="button" data-lang="de">DE</button>
     </div>
-
-    <a href="#contact" class="btn btn-primary btn-sm nav-cta" data-i18n="nav.cta">Demander une offre</a>
-
-    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+    <span class="header-phone">
+      <a href="tel:+41786452178">078 645 21 78</a>
+      <span class="sm" data-i18n="nav.phone_note">on décroche</span>
+    </span>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
   <div class="mobile-menu" id="mobile-menu">
     <a href="#services" data-i18n="nav.services">Services</a>
-    <a href="#pour-qui" data-i18n="nav.pourqui">Pour qui</a>
-    <a href="#realisations" data-i18n="nav.realisations">Réalisations</a>
-    <a href="#processus" data-i18n="nav.processus">Processus</a>
+    <a href="#realisations" data-i18n="nav.real">Réalisations</a>
+    <a href="#atelier" data-i18n="nav.atelier">Notre atelier</a>
     <a href="#tarifs" data-i18n="nav.tarifs">Tarifs</a>
-    <a href="#equipe" data-i18n="nav.equipe">Équipe</a>
-    <div class="lang-switch lang-switch-mobile" role="group" aria-label="Langue">
-      <button type="button" data-lang="fr">FR</button>
-      <button type="button" data-lang="en">EN</button>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+    <div class="lang-switch" role="group" aria-label="Langue">
+      <button type="button" data-lang="fr">FR</button><span class="lang-sep">·</span>
+      <button type="button" data-lang="en">EN</button><span class="lang-sep">·</span>
       <button type="button" data-lang="de">DE</button>
     </div>
-    <a href="#contact" class="btn btn-primary" data-i18n="nav.cta_full">Demander une offre gratuite</a>
+    <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Prenons un café</a>
   </div>
 </header>
 
 <main id="top">
 
 <!-- ============ HERO ============ -->
-<section class="hero">
-  <div class="hero-bg" aria-hidden="true">
-    <span class="blob blob-1"></span>
-    <span class="blob blob-2"></span>
-    <span class="grid-overlay"></span>
-  </div>
-  <div class="container hero-inner">
+<section class="hero container">
+  <div class="hero-grid">
     <div class="hero-copy reveal">
-      <span class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">Agence numérique · Suisse romande</span></span>
-      <h1 data-i18n="hero.h1">Votre présence en ligne,<br><span class="grad-text">conçue en Suisse.</span></h1>
-      <p class="lead" data-i18n="hero.lead">Kortega crée des sites web, des présences en ligne et des applications sur mesure pour les entreprises qui veulent enfin être trouvées — et pour les particuliers qui ont besoin d'un site ou d'une application à eux.</p>
+      <span class="eyebrow" data-i18n="hero.eyebrow">Atelier web — à deux pas de Neuchâtel</span>
+      <h1 data-i18n="hero.h1">On fabrique votre site comme le boulanger fait son pain : <span class="uline">avec les mains.<svg viewBox="0 0 240 12" preserveAspectRatio="none" aria-hidden="true"><path d="M3 8 C 60 2, 150 11, 237 4" stroke="#7E2E2A" stroke-width="4" fill="none" stroke-linecap="round"/></svg></span></h1>
+      <p class="lead" data-i18n="hero.lead">Kortega est un petit atelier près de Neuchâtel. On crée le site internet, la présence en ligne et les applications des commerces qui ont une histoire à raconter — la vôtre, par exemple. Sans jargon, et sans facture surprise.</p>
       <div class="hero-actions">
-        <a href="#contact" class="btn btn-primary btn-lg" data-i18n="hero.cta1">Demander une offre gratuite</a>
-        <a href="#realisations" class="btn btn-ghost btn-lg" data-i18n="hero.cta2">Voir nos réalisations</a>
+        <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Prenons un café</a>
+        <a href="#realisations" class="btn btn-ghost" data-i18n="hero.cta2">Voir nos réalisations</a>
       </div>
-      <ul class="hero-trust">
-        <li><i data-i="check"></i> <span data-i18n="hero.trust1">Réponse sous 24 h</span></li>
-        <li><i data-i="check"></i> <span data-i18n="hero.trust2">Devis gratuit & sans engagement</span></li>
-        <li><i data-i="check"></i> <span data-i18n="hero.trust3">En direct avec le développeur</span></li>
-      </ul>
+      <p class="hero-reassure" data-i18n="hero.reassure">Deux artisans, un numéro de téléphone, zéro charabia. Vous nous parlez, c'est nous qui répondons.</p>
     </div>
 
-    <div class="hero-visual reveal">
-      <div class="mock-window">
-        <div class="mock-bar">
-          <span></span><span></span><span></span>
-          <div class="mock-url"><i data-i="lock"></i> google.ch</div>
+    <div class="clip-wrap reveal">
+      <div class="clipping">
+        <span class="stamp clip-stamp" aria-hidden="true">
+          <span class="sm" data-i18n="stamp.found">Trouvé</span>
+          <span class="big">N°1</span>
+          <span class="sm" data-i18n="stamp.google">sur Google</span>
+        </span>
+        <div class="clip-q"><span aria-hidden="true">⌕</span> <span data-i18n="clip.q">boulangerie · Neuchâtel</span></div>
+        <div class="clip-res">
+          <div class="who" data-i18n="clip.who">Boulangerie du Lac · Marin</div>
+          <div class="title">Boulangerie du Lac</div>
+          <div class="url">www.boulangerie-du-lac.ch</div>
+          <div class="stars">★★★★★ <span data-i18n="clip.stars">4,9 · 128 avis</span></div>
         </div>
-        <div class="serp">
-          <div class="serp-logo" aria-hidden="true"><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></div>
-          <div class="serp-search">
-            <i data-i="search"></i>
-            <span>boulangerie · Neuchâtel</span>
-          </div>
-          <div class="serp-tabs"><span class="on">Tous</span><span>Maps</span><span>Images</span><span>News</span></div>
-          <div class="serp-item serp-top">
-            <span class="serp-rank">N°1</span>
-            <span class="serp-fav"></span>
-            <div class="serp-body">
-              <div class="serp-site"><strong>Boulangerie du Lac</strong><span class="serp-url">https://www.boulangerie-du-lac.ch</span></div>
-              <div class="serp-h">Boulangerie du Lac — pains &amp; pâtisseries maison</div>
-              <div class="serp-stars">★★★★★ <span>4,9 · 128 avis · Marin (NE)</span></div>
-              <div class="serp-snippet">Pains au levain, viennoiseries et tartes maison. Horaires, commande en ligne et plan d'accès.</div>
-            </div>
-          </div>
-          <div class="serp-item serp-dim">
-            <span class="serp-fav alt"></span>
-            <div class="serp-body">
-              <div class="serp-site"><strong>Concurrent</strong><span class="serp-url alt">www.exemple-concurrent.ch</span></div>
-              <div class="serp-h alt">Autre commerce — page peu visible</div>
-              <div class="serp-snippet alt-line"></div>
-            </div>
-          </div>
+        <div class="clip-res clip-res2">
+          <div class="title" data-i18n="clip.res2">Un concurrent, plus bas…</div>
+          <div class="url">www.exemple-concurrent.ch</div>
         </div>
+        <svg class="clip-arrow" viewBox="0 0 60 60" aria-hidden="true"><path d="M56 10 C 30 6, 6 22, 8 50 M8 50 L2 38 M8 50 L20 46" stroke="#7E2E2A" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="clip-cap" data-i18n="clip.cap">— et hop, c'est vous tout en haut.</span>
       </div>
-      <div class="float-badge float-badge-1"><strong>1<sup>re</sup> page</strong><span>sur Google</span></div>
-      <div class="float-badge float-badge-2"><strong>100 %</strong><span>responsive mobile</span></div>
     </div>
   </div>
-</section>
 
-<!-- ============ STRIP ============ -->
-<section class="strip">
-  <div class="container strip-inner">
-    <span class="strip-label" data-i18n="strip.label">Ce que nous livrons</span>
-    <ul class="strip-items">
-      <li data-i18n="strip.1">Sites vitrine</li>
-      <li data-i18n="strip.2">Référencement Google local</li>
-      <li data-i18n="strip.3">Boutiques en ligne</li>
-      <li data-i18n="strip.4">Applications web</li>
-      <li data-i18n="strip.5">Réservation en ligne</li>
-      <li data-i18n="strip.6">Sites pour particuliers</li>
-    </ul>
+  <div class="trust">
+    <span data-i18n="trust.1">Fait main en Suisse romande</span><span class="orn">✳</span>
+    <span data-i18n="trust.2">Hébergé en Suisse</span><span class="orn">✳</span>
+    <span data-i18n="trust.3">Devis clair, sans surprise</span>
   </div>
 </section>
 
 <!-- ============ SERVICES ============ -->
-<section id="services" class="section">
+<section id="services" class="section band-surface">
   <div class="container">
     <div class="section-head reveal">
-      <span class="kicker" data-i18n="services.kicker">Nos services</span>
-      <h2 data-i18n="services.title">Tout ce dont vous avez besoin pour exister en ligne</h2>
-      <p class="section-sub" data-i18n="services.sub">D'un simple site de présentation à une application complète, nous concevons des outils numériques qui travaillent pour vous — pensés pour de vraies personnes, pas seulement pour des informaticiens.</p>
+      <span class="eyebrow" data-i18n="services.eyebrow">Nos services</span>
+      <h2 data-i18n="services.title">Ce qu'on sait faire pour vous</h2>
     </div>
-    <div class="grid grid-3">
-      <article class="card service-card reveal">
-        <span class="svc-icon"><i data-i="globe"></i></span>
-        <h3 data-i18n="svc1.t">Sites web vitrine</h3>
-        <p data-i18n="svc1.d">Un site clair, rapide et impeccable sur mobile qui présente votre commerce, vos horaires, vos prestations et vous rend joignable en un clic.</p>
-      </article>
-      <article class="card service-card reveal">
-        <span class="svc-icon"><i data-i="search"></i></span>
-        <h3 data-i18n="svc2.t">Présence en ligne & Google</h3>
-        <p data-i18n="svc2.d">Fiche Google Business, référencement local, avis clients : nous faisons en sorte que vos futurs clients vous trouvent avant vos concurrents.</p>
-      </article>
-      <article class="card service-card reveal">
-        <span class="svc-icon"><i data-i="app"></i></span>
-        <h3 data-i18n="svc3.t">Applications sur mesure</h3>
-        <p data-i18n="svc3.d">Outils internes, plateformes, applications web installables. Des produits réels que l'on peut ouvrir et utiliser, conçus autour de votre métier.</p>
-      </article>
-      <article class="card service-card reveal">
-        <span class="svc-icon"><i data-i="cart"></i></span>
-        <h3 data-i18n="svc4.t">Boutiques en ligne</h3>
-        <p data-i18n="svc4.d">Vendez vos produits en ligne avec paiement par carte et TWINT, gestion des stocks et livraison. Idéal pour les producteurs, artisans et commerces.</p>
-      </article>
-      <article class="card service-card reveal">
-        <span class="svc-icon"><i data-i="calendar"></i></span>
-        <h3 data-i18n="svc5.t">Réservation & prise de rendez-vous</h3>
-        <p data-i18n="svc5.d">Vos clients réservent une table, un créneau ou une prestation directement en ligne, 24 h/24, sans appels ni va-et-vient.</p>
-      </article>
-      <article class="card service-card reveal">
-        <span class="svc-icon"><i data-i="user"></i></span>
-        <h3 data-i18n="svc6.t">Sites pour particuliers</h3>
-        <p data-i18n="svc6.d">Portfolio, CV en ligne, site de mariage, blog, association ou projet personnel : un site soigné et à votre image, sans prise de tête.</p>
-      </article>
+    <div class="numlist">
+      <div class="numrow reveal"><span class="num">01</span><div><h3 data-i18n="svc1.t">Site internet</h3><p data-i18n="svc1.d">Un site clair, rapide et impeccable sur mobile, qui présente votre commerce, vos horaires et vous rend joignable en un clic.</p></div></div>
+      <div class="numrow reveal"><span class="num">02</span><div><h3 data-i18n="svc2.t">Présence sur Google</h3><p data-i18n="svc2.d">Fiche Google, avis clients, référencement local : on fait en sorte que vos futurs clients vous trouvent avant le voisin.</p></div></div>
+      <div class="numrow reveal"><span class="num">03</span><div><h3 data-i18n="svc3.t">Boutique en ligne</h3><p data-i18n="svc3.d">Vendez vos produits en ligne, paiement par carte et TWINT, gestion des stocks. Pour les producteurs, artisans et commerces.</p></div></div>
+      <div class="numrow reveal"><span class="num">04</span><div><h3 data-i18n="svc4.t">Réservation & applications sur mesure</h3><p data-i18n="svc4.d">Vos clients réservent une table ou un créneau en ligne, 24 h/24. Et pour le reste, on fabrique l'outil dont vous avez besoin.</p></div></div>
+      <div class="numrow reveal"><span class="num">05</span><div><h3 data-i18n="svc5.t">Entretien & refonte</h3><p data-i18n="svc5.d">Un vieux site illisible sur mobile ? On le remet à neuf et on s'occupe de tout : mises à jour, sécurité, petites modifs.</p></div></div>
     </div>
   </div>
 </section>
 
 <!-- ============ POUR QUI ============ -->
-<section id="pour-qui" class="section section-alt">
+<section class="section band-warm">
   <div class="container">
     <div class="section-head reveal">
-      <span class="kicker" data-i18n="pourqui.kicker">Pour qui</span>
-      <h2 data-i18n="pourqui.title">Pensé pour les entreprises comme pour les particuliers</h2>
+      <span class="eyebrow" data-i18n="pourqui.eyebrow">Pour qui</span>
+      <h2 data-i18n="pourqui.title">Pour les commerces qui ont une histoire</h2>
     </div>
-    <div class="grid grid-2">
-      <article class="card audience-card reveal">
-        <span class="aud-tag" data-i18n="aud1.tag">Entreprises</span>
-        <h3 data-i18n="aud1.t">Commerces, artisans & PME</h3>
-        <p data-i18n="aud1.d">Vous tenez une boulangerie, un garage, un cabinet, un atelier ou un restaurant ? Beaucoup de clients potentiels ne vous trouvent pas en ligne — ou tombent sur une page dépassée. Nous corrigeons cela.</p>
-        <ul class="ticks">
-          <li><i data-i="check"></i> <span data-i18n="aud1.l1">Être trouvé sur Google et Maps</span></li>
-          <li><i data-i="check"></i> <span data-i18n="aud1.l2">Inspirer confiance dès le premier clic</span></li>
-          <li><i data-i="check"></i> <span data-i18n="aud1.l3">Gagner de nouveaux clients sans publicité</span></li>
-          <li><i data-i="check"></i> <span data-i18n="aud1.l4">Réservation, menu, devis en ligne</span></li>
-        </ul>
-      </article>
-      <article class="card audience-card reveal">
-        <span class="aud-tag aud-tag-alt" data-i18n="aud2.tag">Particuliers</span>
-        <h3 data-i18n="aud2.t">Projets privés & personnels</h3>
-        <p data-i18n="aud2.d">Vous avez besoin d'un site ou d'une application pour vous, votre famille ou votre association ? Nous réalisons des projets soignés, à un tarif adapté aux particuliers.</p>
-        <ul class="ticks">
-          <li><i data-i="check"></i> <span data-i18n="aud2.l1">Portfolio ou CV en ligne</span></li>
-          <li><i data-i="check"></i> <span data-i18n="aud2.l2">Site de mariage ou d'événement</span></li>
-          <li><i data-i="check"></i> <span data-i18n="aud2.l3">Blog, association, club</span></li>
-          <li><i data-i="check"></i> <span data-i18n="aud2.l4">Petite application sur mesure</span></li>
-        </ul>
-      </article>
-    </div>
+    <p class="trades reveal" data-i18n="pourqui.trades">boulanger <span class="orn">◆</span> boucher <span class="orn">◆</span> horloger <span class="orn">◆</span> garagiste <span class="orn">◆</span> coiffeur <span class="orn">◆</span> vigneron <span class="orn">◆</span> menuisier <span class="orn">◆</span> fleuriste <span class="orn">◆</span> pompes funèbres <span class="orn">◆</span> <span class="reg">et les particuliers qui ont un projet.</span></p>
   </div>
 </section>
 
@@ -234,97 +137,48 @@
 <section id="realisations" class="section">
   <div class="container">
     <div class="section-head reveal">
-      <span class="kicker" data-i18n="work.kicker">Nos réalisations</span>
-      <h2 data-i18n="work.title">Des produits réels, que vous pouvez ouvrir et tester</h2>
-      <p class="section-sub" data-i18n="work.sub">Chez Kortega, nous ne montrons pas de simples images : voici de vraies applications en ligne, fonctionnelles, que nous avons conçues et livrées.</p>
+      <span class="eyebrow" data-i18n="real.eyebrow">Nos réalisations</span>
+      <h2 data-i18n="real.title">Des sites qu'on a déjà fabriqués</h2>
+      <p class="sub" data-i18n="real.sub">On ne montre pas des images : voici de vraies applications en ligne, qu'on a conçues et que vous pouvez ouvrir et tester.</p>
     </div>
-    <div class="grid grid-3 work-grid">
-      <a class="card work-card reveal" href="https://floriansumi-bot.github.io/hyperfractal/" target="_blank" rel="noopener">
-        <div class="work-thumb"><img class="work-img" src="assets/projects/hyperfractal.jpg" alt="Aperçu de HyperFractal" loading="lazy"></div>
-        <div class="work-meta">
-          <span class="work-tag" data-i18n="work.tag.webgl">WebGL · Temps réel</span>
-          <h3 data-i18n="work.hyper.t">HyperFractal — Visuel pour scènes live</h3>
-          <p data-i18n="work.hyper.d">Visualiseur de fractales à zoom infini pour concerts et mapping de projection, propulsé par WebGL et Web Audio.</p>
-          <span class="work-link"><span data-i18n="work.open">Ouvrir le projet</span> <i data-i="arrow"></i></span>
-        </div>
+    <div class="works">
+      <a class="work reveal" href="https://floriansumi-bot.github.io/hyperfractal/" target="_blank" rel="noopener">
+        <span class="shot"><img src="assets/projects/hyperfractal.jpg" alt="Aperçu de HyperFractal" loading="lazy"></span>
+        <span class="cap"><span class="kicker" data-i18n="real.by">Réalisé par nous · WebGL</span><h3 data-i18n="work.hyper.t">HyperFractal — visuel pour scènes live</h3><p data-i18n="work.hyper.d">Visualiseur de fractales à zoom infini pour concerts et mapping de projection.</p><span class="go" data-i18n="work.open">Ouvrir le projet →</span></span>
       </a>
-      <a class="card work-card reveal" href="https://floriansumi-bot.github.io/raspberry-pi-academy/" target="_blank" rel="noopener">
-        <div class="work-thumb"><img class="work-img" src="assets/projects/pilot.png" alt="Aperçu de Pilot, académie Raspberry Pi" loading="lazy"></div>
-        <div class="work-meta">
-          <span class="work-tag" data-i18n="work.tag.pwa">PWA éducative</span>
-          <h3 data-i18n="work.pilot.t">Pilot — Académie Raspberry Pi</h3>
-          <p data-i18n="work.pilot.d">Cours interactif avec un vrai terminal Linux et une platine GPIO câblable, directement dans le navigateur.</p>
-          <span class="work-link"><span data-i18n="work.open">Ouvrir le projet</span> <i data-i="arrow"></i></span>
-        </div>
+      <a class="work reveal" href="https://floriansumi-bot.github.io/raspberry-pi-academy/" target="_blank" rel="noopener">
+        <span class="shot"><img src="assets/projects/pilot.png" alt="Aperçu de Pilot" loading="lazy"></span>
+        <span class="cap"><span class="kicker" data-i18n="real.by2">Réalisé par nous · PWA</span><h3 data-i18n="work.pilot.t">Pilot — académie Raspberry Pi</h3><p data-i18n="work.pilot.d">Cours interactif avec un vrai terminal et une platine électronique, directement dans le navigateur.</p><span class="go" data-i18n="work.open">Ouvrir le projet →</span></span>
       </a>
-      <a class="card work-card reveal" href="https://floriansumi-bot.github.io/the-construct/" target="_blank" rel="noopener">
-        <div class="work-thumb"><img class="work-img" src="assets/projects/construct.jpg" alt="Aperçu de The Construct" loading="lazy"></div>
-        <div class="work-meta">
-          <span class="work-tag" data-i18n="work.tag.wasm">Plateforme · WebAssembly</span>
-          <h3 data-i18n="work.construct.t">The Construct — Apprendre à coder</h3>
-          <p data-i18n="work.construct.d">Apprentissage de 6 langages, chacun exécuté par un vrai moteur dans le navigateur. Théorie puis exercices corrigés en direct.</p>
-          <span class="work-link"><span data-i18n="work.open">Ouvrir le projet</span> <i data-i="arrow"></i></span>
-        </div>
+      <a class="work reveal" href="https://floriansumi-bot.github.io/the-construct/" target="_blank" rel="noopener">
+        <span class="shot"><img src="assets/projects/construct.jpg" alt="Aperçu de The Construct" loading="lazy"></span>
+        <span class="cap"><span class="kicker" data-i18n="real.by3">Réalisé par nous · Plateforme</span><h3 data-i18n="work.construct.t">The Construct — apprendre à coder</h3><p data-i18n="work.construct.d">Apprentissage de 6 langages, chacun exécuté pour de vrai dans le navigateur.</p><span class="go" data-i18n="work.open">Ouvrir le projet →</span></span>
       </a>
-      <a class="card work-card reveal" href="https://sheetgenie.vercel.app" target="_blank" rel="noopener">
-        <div class="work-thumb"><img class="work-img" src="assets/projects/sheetgenie.jpg" alt="Aperçu de SheetGenie" loading="lazy"></div>
-        <div class="work-meta">
-          <span class="work-tag" data-i18n="work.tag.web">Outil web</span>
-          <h3 data-i18n="work.sheet.t">SheetGenie — Générateur Excel</h3>
-          <p data-i18n="work.sheet.d">Décrivez ce qu'il vous faut et obtenez un vrai classeur Excel : formules, totaux, graphiques, prêt à télécharger.</p>
-          <span class="work-link"><span data-i18n="work.open">Ouvrir le projet</span> <i data-i="arrow"></i></span>
-        </div>
+      <a class="work reveal" href="https://sheetgenie.vercel.app" target="_blank" rel="noopener">
+        <span class="shot"><img src="assets/projects/sheetgenie.jpg" alt="Aperçu de SheetGenie" loading="lazy"></span>
+        <span class="cap"><span class="kicker" data-i18n="real.by4">Réalisé par nous · Outil web</span><h3 data-i18n="work.sheet.t">SheetGenie — générateur Excel</h3><p data-i18n="work.sheet.d">Décrivez ce qu'il vous faut et obtenez un vrai fichier Excel, prêt à télécharger.</p><span class="go" data-i18n="work.open">Ouvrir le projet →</span></span>
       </a>
-      <div class="card work-card work-card-static reveal">
-        <div class="work-thumb"><img class="work-img" src="assets/projects/redmatrix.jpg" alt="Aperçu de RED MATRIX" loading="lazy"></div>
-        <div class="work-meta">
-          <span class="work-tag" data-i18n="work.tag.desktop">Application desktop</span>
-          <h3 data-i18n="work.red.t">RED MATRIX — Gestionnaire musical</h3>
-          <p data-i18n="work.red.d">Logiciel de bureau Windows : bibliothèque triée par genre/artiste, lecteur, visualiseur, export USB et gravure CD.</p>
-          <span class="work-note" data-i18n="work.note">Démonstration sur demande</span>
-        </div>
+      <div class="work reveal">
+        <span class="shot"><img src="assets/projects/redmatrix.jpg" alt="Aperçu de RED MATRIX" loading="lazy"></span>
+        <span class="cap"><span class="kicker" data-i18n="real.by5">Réalisé par nous · Application bureau</span><h3 data-i18n="work.red.t">RED MATRIX — gestionnaire musical</h3><p data-i18n="work.red.d">Logiciel de bureau Windows : bibliothèque, lecteur, visualiseur, export USB et gravure CD.</p><span class="work-note" data-i18n="work.note">Démonstration sur demande</span></span>
       </div>
-      <a class="card work-card work-card-cta reveal" href="#contact">
-        <div class="work-cta-inner">
-          <span class="work-cta-icon"><i data-i="bolt"></i></span>
-          <h3 data-i18n="work.cta.t">Un projet en tête ?</h3>
-          <p data-i18n="work.cta.d">Parlons-en — devis gratuit sous 24 h.</p>
-          <span class="work-link"><span data-i18n="work.cta.link">Me contacter</span> <i data-i="arrow"></i></span>
-        </div>
-      </a>
     </div>
   </div>
 </section>
 
 <!-- ============ PROCESSUS ============ -->
-<section id="processus" class="section section-alt">
+<section class="section band-surface">
   <div class="container">
     <div class="section-head reveal">
-      <span class="kicker" data-i18n="proc.kicker">Notre méthode</span>
-      <h2 data-i18n="proc.title">Simple, transparent, sans jargon</h2>
-      <p class="section-sub" data-i18n="proc.sub">De la première discussion à la mise en ligne, vous savez toujours où en est votre projet.</p>
+      <span class="eyebrow" data-i18n="proc.eyebrow">Notre méthode</span>
+      <h2 data-i18n="proc.title">Comment ça se passe, étape par étape</h2>
+      <p class="sub" data-i18n="proc.sub">De la première poignée de main à la mise en ligne, vous savez toujours où en est votre projet.</p>
     </div>
-    <div class="steps">
-      <div class="step reveal">
-        <span class="step-num">01</span>
-        <h3 data-i18n="proc1.t">Découverte</h3>
-        <p data-i18n="proc1.d">On discute de votre activité, de vos objectifs et de vos clients. C'est gratuit et sans engagement.</p>
-      </div>
-      <div class="step reveal">
-        <span class="step-num">02</span>
-        <h3 data-i18n="proc2.t">Conception</h3>
-        <p data-i18n="proc2.d">Nous vous présentons une proposition claire : structure, design et devis fixe. Pas de surprises.</p>
-      </div>
-      <div class="step reveal">
-        <span class="step-num">03</span>
-        <h3 data-i18n="proc3.t">Réalisation</h3>
-        <p data-i18n="proc3.d">Nous construisons votre site ou application avec des technologies modernes, rapides et durables.</p>
-      </div>
-      <div class="step reveal">
-        <span class="step-num">04</span>
-        <h3 data-i18n="proc4.t">Lancement & suivi</h3>
-        <p data-i18n="proc4.d">Mise en ligne, formation et accompagnement. Nous restons disponibles pour faire évoluer votre projet.</p>
-      </div>
+    <div class="numlist">
+      <div class="numrow reveal"><span class="num">01</span><div><h3 data-i18n="proc1.t">On se rencontre</h3><p data-i18n="proc1.d">On discute de votre commerce et de vos clients autour d'un café. C'est gratuit et sans engagement.</p></div></div>
+      <div class="numrow reveal"><span class="num">02</span><div><h3 data-i18n="proc2.t">On dessine</h3><p data-i18n="proc2.d">On vous montre une proposition claire et un prix fixe, écrit d'avance. Pas de surprise.</p></div></div>
+      <div class="numrow reveal"><span class="num">03</span><div><h3 data-i18n="proc3.t">On fabrique</h3><p data-i18n="proc3.d">On construit votre site avec soin, et on vous tient au courant à chaque étape.</p></div></div>
+      <div class="numrow reveal"><span class="num">04</span><div><h3 data-i18n="proc4.t">On vous livre les clés</h3><p data-i18n="proc4.d">Mise en ligne, petite formation, et on reste joignable. Le site est à vous.</p></div></div>
     </div>
   </div>
 </section>
@@ -333,116 +187,93 @@
 <section id="tarifs" class="section">
   <div class="container">
     <div class="section-head reveal">
-      <span class="kicker" data-i18n="tarifs.kicker">Nos forfaits</span>
-      <h2 data-i18n="tarifs.title">Des tarifs clairs, fixés à l'avance</h2>
-      <p class="section-sub" data-i18n="tarifs.sub">Chaque projet est unique : ces forfaits sont des points de départ. Vous recevez toujours un devis fixe et détaillé avant de commencer.</p>
+      <span class="eyebrow" data-i18n="tarifs.eyebrow">Nos prix</span>
+      <h2 data-i18n="tarifs.title">Nos prix, annoncés d'avance</h2>
+      <p class="sub" data-i18n="tarifs.sub">Deux façons de payer, au choix : un petit montant chaque mois, ou le site à vous une fois pour toutes — payable en plusieurs fois.</p>
     </div>
-    <div class="grid grid-3 pricing">
-      <article class="card price-card reveal">
-        <h3 class="price-name" data-i18n="price1.name">Essentiel</h3>
-        <p class="price-for" data-i18n="price1.for">Particuliers & petits commerces</p>
-        <div class="price"><span class="price-from" data-i18n="price.from">dès</span> CHF 1'800</div>
-        <ul class="price-feats">
-          <li><i data-i="check"></i> <span data-i18n="price1.f1">Jusqu'à 5 pages</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price1.f2">Parfait sur mobile</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price1.f3">Google Maps & formulaire de contact</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price1.f4">Référencement de base</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price1.f5">Mise en ligne incluse</span></li>
+    <div class="prices">
+      <article class="price feature reveal">
+        <div class="ptop"><div><h3 data-i18n="price.abo.name">Abonnement</h3><span class="feature-tag" data-i18n="price.abo.tag">le plus accessible</span><p class="for" data-i18n="price.abo.for">Petits commerces & budgets serrés</p></div></div>
+        <div class="amt"><span class="from" data-i18n="price.from">dès</span>CHF 49.–<span style="font-size:.9rem;color:var(--muted)" data-i18n="price.permonth">/mois</span></div>
+        <p class="pay" data-i18n="price.abo.pay">Sans avance · tout compris</p>
+        <ul>
+          <li data-i18n="price.abo.f1">Site, nom de domaine & hébergement</li>
+          <li data-i18n="price.abo.f2">Maintenance & petites modifications</li>
+          <li data-i18n="price.abo.f3">Engagement 24 mois, sans piège</li>
         </ul>
-        <a href="#contact" class="btn btn-ghost btn-block" data-i18n="price.cta1">Demander un devis</a>
       </article>
-
-      <article class="card price-card price-feature reveal">
-        <span class="price-badge" data-i18n="price.badge">Le plus demandé</span>
-        <h3 class="price-name" data-i18n="price2.name">Professionnel</h3>
-        <p class="price-for" data-i18n="price2.for">Artisans, PME & restaurants</p>
-        <div class="price"><span class="price-from" data-i18n="price.from">dès</span> CHF 3'500</div>
-        <ul class="price-feats">
-          <li><i data-i="check"></i> <span data-i18n="price2.f1">Jusqu'à 10 pages + blog</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price2.f2">Réservation / menu / galerie</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price2.f3">Fiche Google Business optimisée</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price2.f4">Référencement local avancé</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price2.f5">Multilingue en option (FR/DE/IT)</span></li>
+      <article class="price reveal">
+        <div class="ptop"><div><h3 data-i18n="price.ess.name">Essentiel</h3><p class="for" data-i18n="price.ess.for">Particuliers & petits commerces</p></div></div>
+        <div class="amt"><span class="from" data-i18n="price.from">dès</span>CHF 890</div>
+        <p class="pay" data-i18n="price.ess.pay">comptant ou en 3× sans frais</p>
+        <ul>
+          <li data-i18n="price.ess.f1">Jusqu'à 5 pages, parfait sur mobile</li>
+          <li data-i18n="price.ess.f2">Google Maps & formulaire de contact</li>
+          <li data-i18n="price.ess.f3">Le site est à vous</li>
         </ul>
-        <a href="#contact" class="btn btn-primary btn-block" data-i18n="price.cta2">Demander un devis</a>
       </article>
-
-      <article class="card price-card reveal">
-        <h3 class="price-name" data-i18n="price3.name">Sur mesure</h3>
-        <p class="price-for" data-i18n="price3.for">E-commerce & applications</p>
-        <div class="price price-quote" data-i18n="price.quote">Sur devis</div>
-        <ul class="price-feats">
-          <li><i data-i="check"></i> <span data-i18n="price3.f1">Boutique en ligne (carte & TWINT)</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price3.f2">Application web sur mesure</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price3.f3">Espace client / connexion</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price3.f4">Intégrations & automatisations</span></li>
-          <li><i data-i="check"></i> <span data-i18n="price3.f5">Multilingue complet</span></li>
+      <article class="price reveal">
+        <div class="ptop"><div><h3 data-i18n="price.pro.name">Professionnel</h3><p class="for" data-i18n="price.pro.for">Artisans, PME & restaurants</p></div></div>
+        <div class="amt"><span class="from" data-i18n="price.from">dès</span>CHF 1'900</div>
+        <p class="pay" data-i18n="price.pro.pay">comptant ou en 3-4× sans frais</p>
+        <ul>
+          <li data-i18n="price.pro.f1">Jusqu'à 10 pages + blog</li>
+          <li data-i18n="price.pro.f2">Réservation, menu, galerie</li>
+          <li data-i18n="price.pro.f3">Référencement local avancé</li>
         </ul>
-        <a href="#contact" class="btn btn-ghost btn-block" data-i18n="price.cta3">Discutons-en</a>
+      </article>
+      <article class="price reveal">
+        <div class="ptop"><div><h3 data-i18n="price.cust.name">Sur mesure</h3><p class="for" data-i18n="price.cust.for">Boutique en ligne & application</p></div></div>
+        <div class="amt" data-i18n="price.quote">sur devis</div>
+        <p class="pay" data-i18n="price.cust.pay">paiement échelonné</p>
+        <ul>
+          <li data-i18n="price.cust.f1">Boutique en ligne (carte & TWINT)</li>
+          <li data-i18n="price.cust.f2">Application web sur mesure</li>
+          <li data-i18n="price.cust.f3">Multilingue, intégrations</li>
+        </ul>
       </article>
     </div>
-    <p class="price-note reveal" data-i18n="price.note">Hébergement & maintenance en option, dès CHF 49.–/mois — mises à jour, sécurité et tranquillité d'esprit.</p>
+    <p class="price-note reveal" data-i18n="price.note">Paiement en plusieurs fois, sans frais, sur tous les forfaits. Pas d'abonnement piège : avec l'achat, le site est à vous et vous gardez les clés.</p>
   </div>
 </section>
 
-<!-- ============ POURQUOI ============ -->
-<section class="section section-dark">
+<!-- ============ POURQUOI (deep-ink band) ============ -->
+<section class="section on-dark">
   <div class="container">
     <div class="section-head reveal">
-      <span class="kicker kicker-light" data-i18n="why.kicker">Pourquoi Kortega</span>
-      <h2 data-i18n="why.title">Le sérieux d'une agence, la proximité d'un partenaire</h2>
+      <span class="eyebrow" data-i18n="why.eyebrow">Pourquoi nous</span>
+      <h2 data-i18n="why.title">Le sérieux d'un artisan, pas le baratin d'une agence</h2>
     </div>
-    <div class="grid grid-4 why-grid">
-      <div class="why-item reveal">
-        <span class="why-icon"><i data-i="bolt"></i></span>
-        <h3 data-i18n="why1.t">En direct avec le créateur</h3>
-        <p data-i18n="why1.d">Pas d'intermédiaire ni de commercial. Vous parlez à la personne qui construit votre projet.</p>
-      </div>
-      <div class="why-item reveal">
-        <span class="why-icon"><i data-i="shield"></i></span>
-        <h3 data-i18n="why2.t">Conçu en Suisse</h3>
-        <p data-i18n="why2.d">Une entreprise locale, joignable, qui comprend votre marché et vos clients.</p>
-      </div>
-      <div class="why-item reveal">
-        <span class="why-icon"><i data-i="code"></i></span>
-        <h3 data-i18n="why3.t">Technologies modernes</h3>
-        <p data-i18n="why3.d">Des sites rapides, sûrs et durables, construits avec des outils de pointe.</p>
-      </div>
-      <div class="why-item reveal">
-        <span class="why-icon"><i data-i="tag"></i></span>
-        <h3 data-i18n="why4.t">Sans frais cachés</h3>
-        <p data-i18n="why4.d">Un devis fixe, validé à l'avance. Vous savez exactement ce que vous payez.</p>
-      </div>
+    <div class="guarantees">
+      <div class="guarantee reveal"><h3 data-i18n="why1.t">Vous parlez à la bonne personne</h3><p data-i18n="why1.d">Deux artisans, un seul numéro de téléphone, zéro intermédiaire. Vous nous parlez, c'est nous qui répondons.</p></div>
+      <div class="guarantee reveal"><h3 data-i18n="why2.t">Pas content ? Vous ne payez pas</h3><p data-i18n="why2.d">Si la première maquette ne vous plaît pas, vous ne payez rien. C'est aussi simple que ça.</p></div>
+      <div class="guarantee reveal"><h3 data-i18n="why3.t">En français normal</h3><p data-i18n="why3.d">On vous explique tout sans jargon. Si vous ne comprenez pas, c'est qu'on a mal fait notre travail.</p></div>
+      <div class="guarantee reveal"><h3 data-i18n="why4.t">Fait main en Suisse</h3><p data-i18n="why4.d">Conçu en Suisse romande, hébergé en Suisse. Et le site vous appartient, à 100 %.</p></div>
     </div>
+    <p style="margin-top:2.4rem"><span class="seal" data-i18n="why.seal">Devis fixe, signé d'avance — la facture finale, c'est le prix annoncé.</span></p>
   </div>
 </section>
 
-<!-- ============ EQUIPE ============ -->
-<section id="equipe" class="section section-alt">
+<!-- ============ ATELIER / EQUIPE ============ -->
+<section id="atelier" class="section band-warm">
   <div class="container">
     <div class="section-head reveal">
-      <span class="kicker" data-i18n="team.kicker">L'équipe</span>
-      <h2 data-i18n="team.title">Les personnes derrière Kortega</h2>
-      <p class="section-sub" data-i18n="team.sub">Deux amis rencontrés au Lycée Jean-Piaget à Neuchâtel, qui développent leur réseau ensemble depuis. Deux profils complémentaires : la technique et le produit d'un côté, l'administration et les finances de l'autre.</p>
+      <span class="eyebrow" data-i18n="team.eyebrow">Notre atelier</span>
+      <h2 data-i18n="team.title">Deux artisans, un seul numéro de téléphone</h2>
     </div>
-    <div class="grid grid-2 team-grid">
-      <article class="card team-card reveal">
-        <div class="team-avatar">FS</div>
-        <div class="team-body">
-          <h3>Florian Sumi</h3>
-          <span class="team-role" data-i18n="team.fs.role">Co-fondateur · développement & produit</span>
-          <p data-i18n="team.fs.d1">Ingénieur logiciel basé près de Neuchâtel, en grande partie autodidacte, je me forme à la programmation de façon structurée — notamment Python via <strong>CS50</strong>, le cursus d'informatique de l'Université Harvard. Je conçois, prototype et livre de vraies applications, en m'appuyant sur des boucles agentiques pour gagner en rapidité, tout en gardant la maîtrise de l'architecture et de la qualité finale.</p>
-          <p data-i18n="team.fs.d2">Mon parcours en recherche sur les médias et la communication (Master à l'Université de Lausanne) explique ma façon de travailler : je conçois des logiciels pour de vraies personnes, pas seulement pour d'autres ingénieurs.</p>
-        </div>
+    <p class="team-intro reveal" data-i18n="team.intro">On s'est rencontrés au Lycée Jean-Piaget, à Neuchâtel, et on développe notre réseau ensemble depuis. Deux profils complémentaires : la technique et le produit d'un côté, l'administration et les finances de l'autre.</p>
+    <div class="team">
+      <article class="member reveal">
+        <span class="avatar" aria-hidden="true">FS</span>
+        <div class="who"><h3>Florian Sumi</h3><span class="role" data-i18n="team.fs.role">Co-fondateur · développement & produit</span></div>
+        <p data-i18n="team.fs.d1">Ingénieur logiciel près de Neuchâtel, en grande partie autodidacte, je me forme de façon structurée — notamment Python via CS50, le cursus d'informatique de l'Université Harvard. Je conçois et je fabrique de vraies applications, en gardant la maîtrise de la qualité du début à la fin.</p>
+        <p data-i18n="team.fs.d2">Mon parcours en médias et communication (Master à l'Université de Lausanne) explique ma façon de travailler : je fais des sites pour de vraies personnes, pas pour des informaticiens.</p>
       </article>
-      <article class="card team-card reveal">
-        <div class="team-avatar team-avatar-alt">AS</div>
-        <div class="team-body">
-          <h3>Arthur Sidler</h3>
-          <span class="team-role" data-i18n="team.as.role">Co-fondateur · administration & finances</span>
-          <p data-i18n="team.as.d1">Fort de plus de 10 ans d'expérience comme comptable et dans l'administration d'entreprise, Arthur pilote la gestion, les finances et le suivi des projets de Kortega. Il garantit des devis clairs, des budgets tenus et des délais respectés.</p>
-          <p data-i18n="team.as.d2">C'est lui qui assure la solidité administrative et la relation de confiance avec nos clients, du premier devis au suivi après livraison — pour que tout reste simple et serein de votre côté.</p>
-        </div>
+      <article class="member reveal">
+        <span class="avatar" aria-hidden="true">AS</span>
+        <div class="who"><h3>Arthur Sidler</h3><span class="role" data-i18n="team.as.role">Co-fondateur · administration & finances</span></div>
+        <p data-i18n="team.as.d1">Fort de plus de 10 ans d'expérience comme comptable et dans l'administration d'entreprise, Arthur s'occupe de la gestion, des finances et du suivi des projets. Il garantit des devis clairs, des budgets tenus et des délais respectés.</p>
+        <p data-i18n="team.as.d2">C'est lui qui assure le sérieux administratif et la relation de confiance, du premier devis au suivi après livraison — pour que tout reste simple de votre côté.</p>
       </article>
     </div>
   </div>
@@ -450,80 +281,45 @@
 
 <!-- ============ FAQ ============ -->
 <section class="section">
-  <div class="container container-narrow">
+  <div class="container" style="max-width:820px">
     <div class="section-head reveal">
-      <span class="kicker" data-i18n="faq.kicker">Questions fréquentes</span>
-      <h2 data-i18n="faq.title">Tout ce que vous vous demandez</h2>
+      <span class="eyebrow" data-i18n="faq.eyebrow">Questions fréquentes</span>
+      <h2 data-i18n="faq.title">Les questions qu'on nous pose souvent</h2>
     </div>
     <div class="faq reveal">
-      <details class="faq-item">
-        <summary data-i18n="faq1.q">Combien de temps faut-il pour créer mon site ?</summary>
-        <p data-i18n="faq1.a">Un site vitrine est généralement livré en 2 à 3 semaines. Les projets plus complexes (boutique en ligne, application) demandent davantage de temps, que nous fixons ensemble dès le départ.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n="faq2.q">Et si je n'y connais rien en informatique ?</summary>
-        <p data-i18n="faq2.a">C'est précisément notre métier. Nous nous occupons de tout — du nom de domaine à la mise en ligne — et nous vous expliquons l'essentiel sans jargon. Vous n'avez rien de technique à gérer.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n="faq3.q">Le site m'appartient-il vraiment ?</summary>
-        <p data-i18n="faq3.a">Oui, à 100 %. Contrairement à une page sur les réseaux sociaux, votre site et votre nom de domaine vous appartiennent entièrement et pour toujours.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n="faq4.q">Que comprend la maintenance ?</summary>
-        <p data-i18n="faq4.a">Hébergement, mises à jour de sécurité, sauvegardes et petites modifications. C'est optionnel, à partir de CHF 49.–/mois, pour garder votre site rapide et sûr sans vous en occuper.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n="faq5.q">Travaillez-vous avec des clients hors de Suisse romande ?</summary>
-        <p data-i18n="faq5.a">Oui. Nous travaillons à distance dans toute la Suisse et pouvons réaliser des projets en français, allemand, italien et anglais.</p>
-      </details>
-      <details class="faq-item">
-        <summary data-i18n="faq6.q">Comment se passe le paiement ?</summary>
-        <p data-i18n="faq6.a">Un acompte à la commande, le solde à la livraison. Facture suisse avec QR-facture, paiement par virement ou TWINT. Tout est défini dans un devis clair signé à l'avance.</p>
-      </details>
+      <details><summary data-i18n="faq1.q">Combien de temps pour avoir mon site ?</summary><p data-i18n="faq1.a">Un site vitrine est généralement prêt en 2 à 3 semaines. Pour les projets plus grands (boutique, application), on fixe le délai ensemble dès le départ.</p></details>
+      <details><summary data-i18n="faq2.q">Je n'y connais rien en informatique, c'est grave ?</summary><p data-i18n="faq2.a">Pas du tout — c'est notre métier. On s'occupe de tout, du nom de domaine à la mise en ligne, et on vous explique l'essentiel sans jargon. Vous n'avez rien de technique à gérer.</p></details>
+      <details><summary data-i18n="faq3.q">Le site m'appartient vraiment ?</summary><p data-i18n="faq3.a">Oui, à 100 % (avec l'achat). Contrairement à une page sur les réseaux sociaux, votre site et votre nom de domaine sont à vous, pour toujours.</p></details>
+      <details><summary data-i18n="faq4.q">Et si je n'ai pas un gros budget ?</summary><p data-i18n="faq4.a">On a une formule à partir de CHF 49.–/mois, sans avance, tout compris. Et tous nos sites se paient en plusieurs fois, sans frais. On trouve une solution.</p></details>
+      <details><summary data-i18n="faq5.q">Vous travaillez en dehors de Neuchâtel ?</summary><p data-i18n="faq5.a">Oui, dans toute la Suisse, à distance ou en personne. On réalise des projets en français, allemand, italien et anglais.</p></details>
+      <details><summary data-i18n="faq6.q">Comment se passe le paiement ?</summary><p data-i18n="faq6.a">Un acompte au départ, le solde à la livraison — ou en mensualités. Facture suisse avec QR-facture, paiement par virement ou TWINT. Tout est écrit d'avance.</p></details>
     </div>
   </div>
 </section>
 
-<!-- ============ CONTACT / CTA ============ -->
-<section id="contact" class="section section-cta">
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section band-surface">
   <div class="container">
-    <div class="cta-wrap reveal">
-      <div class="cta-copy">
-        <span class="kicker kicker-light" data-i18n="contact.kicker">Parlons de votre projet</span>
-        <h2 data-i18n="contact.title">Recevez une offre gratuite sous 24 h</h2>
-        <p data-i18n="contact.d">Décrivez votre projet en quelques mots. Nous vous répondons rapidement avec des idées concrètes et un devis sans engagement.</p>
-        <ul class="cta-contacts">
-          <li><i data-i="mail"></i> <a href="mailto:Florian.Sumi@gmail.com">Florian.Sumi@gmail.com</a></li>
-          <li><i data-i="phone"></i> <a href="tel:+41786452178">+41 78 645 21 78</a></li>
-          <li><i data-i="pin"></i> <span data-i18n="contact.loc">Région de Neuchâtel · Suisse</span></li>
+    <div class="section-head reveal">
+      <span class="eyebrow" data-i18n="contact.eyebrow">Contact</span>
+      <h2 data-i18n="contact.title">On en parle autour d'un café ?</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p data-i18n="contact.d">Dites-nous en deux mots votre projet (ou juste « j'aimerais un site »). On vous répond vite, avec des idées concrètes et un devis gratuit, sans engagement.</p>
+        <ul class="contact-list">
+          <li><span class="lbl" data-i18n="contact.l_phone">Téléphone</span><a href="tel:+41786452178">078 645 21 78</a></li>
+          <li><span class="lbl" data-i18n="contact.l_mail">E-mail</span><a href="mailto:Florian.Sumi@gmail.com">Florian.Sumi@gmail.com</a></li>
+          <li><span class="lbl" data-i18n="contact.l_loc">Où</span><span data-i18n="contact.loc">Région de Neuchâtel · toute la Suisse</span></li>
         </ul>
       </div>
-      <form class="cta-form" id="contact-form" data-mailto="Florian.Sumi@gmail.com">
-        <div class="field">
-          <label for="name" data-i18n="form.name">Nom</label>
-          <input type="text" id="name" name="name" data-i18n-ph="form.name.ph" placeholder="Votre nom" required>
-        </div>
-        <div class="field">
-          <label for="email" data-i18n="form.email">E-mail</label>
-          <input type="email" id="email" name="email" data-i18n-ph="form.email.ph" placeholder="vous@exemple.ch" required>
-        </div>
-        <div class="field">
-          <label for="type" data-i18n="form.type">Type de projet</label>
-          <select id="type" name="type">
-            <option data-i18n="form.type.1">Site vitrine</option>
-            <option data-i18n="form.type.2">Site professionnel / PME</option>
-            <option data-i18n="form.type.3">Boutique en ligne</option>
-            <option data-i18n="form.type.4">Application sur mesure</option>
-            <option data-i18n="form.type.5">Projet pour particulier</option>
-            <option data-i18n="form.type.6">Autre / je ne sais pas encore</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="message" data-i18n="form.msg">Votre projet</label>
-          <textarea id="message" name="message" rows="4" data-i18n-ph="form.msg.ph" placeholder="Décrivez votre activité et ce que vous aimeriez…"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary btn-block btn-lg" data-i18n="form.submit">Envoyer ma demande</button>
-        <p class="form-hint" data-i18n="form.hint">Réponse sous 24 h · Gratuit & sans engagement</p>
+      <form class="cta-form reveal" id="contact-form" data-mailto="Florian.Sumi@gmail.com">
+        <div class="field"><label for="name" data-i18n="form.name">Votre nom</label><input type="text" id="name" name="name" data-i18n-ph="form.name.ph" placeholder="Prénom et nom" required></div>
+        <div class="field"><label for="shop" data-i18n="form.shop">Votre commerce</label><input type="text" id="shop" name="shop" data-i18n-ph="form.shop.ph" placeholder="Nom de votre commerce (optionnel)"></div>
+        <div class="field"><label for="email" data-i18n="form.email">E-mail ou téléphone</label><input type="text" id="email" name="email" data-i18n-ph="form.email.ph" placeholder="Pour qu'on vous recontacte" required></div>
+        <div class="field"><label for="message" data-i18n="form.msg">Votre projet</label><textarea id="message" name="message" rows="4" data-i18n-ph="form.msg.ph" placeholder="Quelques mots sur ce que vous aimeriez…"></textarea></div>
+        <button type="submit" class="btn btn-primary" style="justify-content:center" data-i18n="form.submit">Envoyer</button>
+        <p class="form-hint" data-i18n="form.hint">Réponse sous 24 h · gratuit & sans engagement</p>
       </form>
     </div>
   </div>
@@ -533,30 +329,29 @@
 
 <!-- ============ FOOTER ============ -->
 <footer class="footer">
-  <div class="container footer-inner">
-    <div class="footer-brand">
-      <a href="#top" class="brand">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 48 48" width="32" height="32">
-            <rect width="48" height="48" rx="12" fill="url(#kg)"/>
-            <path d="M17 12 V36 M17 24 L31 12 M17 24 L31 36" stroke="#fff" stroke-width="3.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </span>
-        <span class="brand-name">Kortega</span>
-      </a>
-      <p data-i18n="footer.tagline">Sites web, présence en ligne & applications sur mesure, conçus en Suisse.</p>
+  <div class="container">
+    <div class="drule"></div>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#top" class="brand"><span class="brand-mono" aria-hidden="true" style="border-color:#D98B86;color:#D98B86">KK</span><span>Kortega<span class="dot">.</span></span></a>
+        <p data-i18n="footer.tagline">L'atelier web près de Neuchâtel. Sites, présence en ligne et applications, faits main en Suisse romande.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Pied de page">
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#realisations" data-i18n="nav.real">Réalisations</a>
+        <a href="#tarifs" data-i18n="nav.tarifs">Tarifs</a>
+        <a href="#atelier" data-i18n="nav.atelier">Notre atelier</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="footer-nav">
+        <a href="tel:+41786452178">078 645 21 78</a>
+        <a href="mailto:Florian.Sumi@gmail.com">Florian.Sumi@gmail.com</a>
+      </div>
     </div>
-    <nav class="footer-nav" aria-label="Pied de page">
-      <a href="#services" data-i18n="nav.services">Services</a>
-      <a href="#realisations" data-i18n="nav.realisations">Réalisations</a>
-      <a href="#tarifs" data-i18n="nav.tarifs">Tarifs</a>
-      <a href="#equipe" data-i18n="nav.equipe">Équipe</a>
-      <a href="#contact" data-i18n="nav.cta">Demander une offre</a>
-    </nav>
-  </div>
-  <div class="container footer-bottom">
-    <span>© <span id="year"></span> Kortega · Suisse</span>
-    <span class="made"><span data-i18n="footer.made">Conçu en Suisse</span> <i data-i="swiss"></i></span>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Kortega · Suisse</span>
+      <span data-i18n="footer.made">Fait main près de Neuchâtel ✳</span>
+    </div>
   </div>
 </footer>
 
