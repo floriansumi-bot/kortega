@@ -21,6 +21,7 @@
     phone: '<path d="M5 3h4l2 5-3 2a14 14 0 0 0 6 6l2-3 5 2v4a2 2 0 0 1-2 2A18 18 0 0 1 3 5a2 2 0 0 1 2-2z"/>',
     pin: '<path d="M12 22s7-7 7-12a7 7 0 1 0-14 0c0 5 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/>',
     arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+    lock: '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',
     swiss: '<rect x="3" y="3" width="18" height="18" rx="3" fill="#D52B1E" stroke="none"/><path d="M12 7v10M7 12h10" stroke="#fff" stroke-width="2.4"/>'
   };
 
